@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(cors());
 
 const PORT = process.env.PORT || 10000;
-const SECRET = process.env.WEBHOOK_SECRET || 'my-secret-webhook-token-12345';
+const SECRET = process.env.WEBHOOK_SECRET || '123456789';
 
 let webhookBuffer = [];
 
